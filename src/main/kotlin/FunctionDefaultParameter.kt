@@ -1,4 +1,4 @@
-fun hello(fristName:String,lastName: String? = null){
+fun hello(fristName:String, lastName: String? = null){
     if (lastName == null){
         println("hello $fristName")
     }else{
